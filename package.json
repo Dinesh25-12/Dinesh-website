@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Dinesh25-12/Dinesh-website",
+  "homepage": "https://Dinesh25-12.github.io/Dinesh-website",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^12.23.0",
